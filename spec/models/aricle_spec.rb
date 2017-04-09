@@ -7,6 +7,13 @@ it {should validate_presence_of :text }
 end
 describe "associations" do
 it {should have_many :comments }
+end
+describe "#subject" do
+it "returns the article title" do
+	article = create(:article, title: 'Something amazing') # создание объекта
 
+	#assert проверка
+	expect(article.subject). to eq 'Something amazing'
+	end
 end
 end
