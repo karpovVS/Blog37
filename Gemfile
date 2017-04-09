@@ -52,7 +52,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 gem 'rake', '< 11.0'
 gem "rspec-rails", ">= 2.0.0.beta.19"
-gem "shoulda-matchers" 
+ 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -62,5 +62,5 @@ gem 'devise'
       gem 'rake', '< 11.0'
       gem "rspec-rails", ">= 2.0.0.beta.19"
       gem 'capybara'
-gem "shoulda-matchers" 
+gem "shoulda-matchers"     
   end
