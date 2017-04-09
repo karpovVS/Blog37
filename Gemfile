@@ -53,6 +53,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
   group :test, :devolopment do
-    gem "rspec-rails", ">=2.4"
+    gem "rspec-rails", "~>2.4"
     gem 'capybara'
   end
