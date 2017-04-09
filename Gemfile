@@ -38,6 +38,9 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+gem 'rake', '< 11.0'
+gem "rspec-rails", ">= 2.0.0.beta.19"
+gem "shoulda-matchers" 
 end
 
 group :development do
@@ -47,12 +50,17 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+gem 'rake', '< 11.0'
+gem "rspec-rails", ">= 2.0.0.beta.19"
+gem "shoulda-matchers" 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
   group :test, :devolopment do
-    gem "rspec-rails", "~>2.4"
-    gem 'capybara'
+      gem 'rake', '< 11.0'
+      gem "rspec-rails", ">= 2.0.0.beta.19"
+      gem 'capybara'
+gem "shoulda-matchers" 
   end

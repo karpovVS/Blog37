@@ -1,5 +1,5 @@
-require "spec_helper" 
+require "spec_helper"
+describe Contact do
+it { should validate_presense_of :email}
 
-describe Conact do 
-  it {should validate_presence_of :email}
-end
+	end
