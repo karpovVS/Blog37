@@ -62,5 +62,7 @@ gem 'devise'
       gem 'rake', '< 11.0'
       gem "rspec-rails", ">= 2.0.0.beta.19"
       gem 'capybara'
-gem "shoulda-matchers"     
+gem "shoulda-matchers"
+gem "factory_girl_rails", "~> 4.0"
+     
   end
