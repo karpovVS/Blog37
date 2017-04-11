@@ -41,6 +41,7 @@ group :development, :test do
 gem 'rake', '< 11.0'
 gem "rspec-rails", ">= 2.0.0.beta.19"
 gem "shoulda-matchers" 
+gem 'database_cleaner'
 end
 
 group :development do
@@ -64,5 +65,5 @@ gem 'devise'
       gem 'capybara'
 gem "shoulda-matchers"
 gem "factory_girl_rails", "~> 4.0"
-     
+gem 'database_cleaner'     
   end
